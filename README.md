@@ -35,9 +35,9 @@ Files in a repository go through three stages before being under version control
     - Use [git commit](https://git-scm.com/docs/git-commit) to create a record or a snapshot of changes which you have made. Usually, this is done by recording a short message that explains what we did and why.
     - One useful command in this section is `git commit --amend` flag, which allows you to amend the previous commit, for example to fix a spelling mistake.
 
-**Git RM**
+**git rm**
 
-This command is used to remove files from a Git repository.
+This command is the inverse(almost) of `git add`. It can be used either to unstage staged files(using **--cached** option) or remove files entirely from the git repository(using **-f** option).
 
 ## Remote
 
