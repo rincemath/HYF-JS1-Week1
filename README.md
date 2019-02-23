@@ -95,7 +95,7 @@ It is a reference to the last commit object in the currently checked-out branch(
 
 #### Tracking ####
 
-Tracking branches are branches which know which remote branches they are related to. When we checkout a branch from remote repository and have established an upstream branch relationship, the local `<branch-name>` can be considered as the **local tracking branch** and `<remote>/<branch-name>` can be considered as **remote tracking branch**.
+Tracking branches know which remote branches they are related to. When we checkout a branch from remote repository and have established an upstream branch relationship, the local `<branch-name>` can be considered as the **local tracking branch** and `<remote>/<branch-name>` can be considered as **remote tracking branch**.
 
 This is quite useful when we intend to do push and pull operations to interact with our remote repository.
 
