@@ -89,7 +89,7 @@ git checkout -b <branch-name>
 
 #### HEAD ####
 
-It is a reference to the last commit object in the currently checked-out branch. It is used by Git to keep a track on what branch are you currently on. When a developer switches branches using `git checkout`, the HEAD revision changes to point to the tip of the new branch. Use `cat .git/HEAD` to see current position of HEAD.
+It is a reference to the last commit object in the currently checked-out branch(or tip of the current branch). It is used by Git to keep a track on what branch are you currently on. When a developer switches branches using `git checkout`, the HEAD revision changes to point to the tip of the new branch. Use `cat .git/HEAD` to see current position of HEAD.
 
 #### Tracking ####
 
