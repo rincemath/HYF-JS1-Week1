@@ -71,6 +71,8 @@ git remote rename <old-name> <new-name>
 git push origin master
 ```
 
+**Note:** When you clone a repository with `git clone`, it automatically creates a remote connection called **origin** pointing back to the cloned repository.
+
 ## Branching
 
 It is a way of working where you can diverge from the main line of development and continue to do work without messing with that main line. A detailed explanation of how branching in git works is present [here](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell).
